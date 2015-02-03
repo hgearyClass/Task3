@@ -1,0 +1,10 @@
+C:\Users\Heather\Desktop\Assignment1\Task3\Task3Test\bin\Debug\Task3Test.dll
+C:\Users\Heather\Desktop\Assignment1\Task3\Task3Test\bin\Debug\Task3Test.pdb
+C:\Users\Heather\Desktop\Assignment1\Task3\Task3Test\bin\Debug\Task3Test.xml
+C:\Users\Heather\Desktop\Assignment1\Task3\Task3Test\bin\Debug\Task3.dll
+C:\Users\Heather\Desktop\Assignment1\Task3\Task3Test\bin\Debug\Task3.pdb
+C:\Users\Heather\Desktop\Assignment1\Task3\Task3Test\bin\Debug\Task3.xml
+C:\Users\Heather\Desktop\Assignment1\Task3\Task3Test\obj\Debug\Task3Test.vbprojResolveAssemblyReference.cache
+C:\Users\Heather\Desktop\Assignment1\Task3\Task3Test\obj\Debug\Task3Test.dll
+C:\Users\Heather\Desktop\Assignment1\Task3\Task3Test\obj\Debug\Task3Test.xml
+C:\Users\Heather\Desktop\Assignment1\Task3\Task3Test\obj\Debug\Task3Test.pdb

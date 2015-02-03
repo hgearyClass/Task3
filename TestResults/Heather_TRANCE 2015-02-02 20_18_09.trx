@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="81d86f41-ba9f-4b63-8e66-e521d0e0a604" name="Heather@TRANCE 2015-02-02 20:18:09" runUser="Trance\Heather" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="3bfa5064-b55d-4532-9b40-2433e13a9539">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Heather_TRANCE 2015-02-02 20_18_09">
+      <DeploymentItem filename="C:\Users\Heather\Desktop\Assignment1\Task3\bin\Task3.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-02-02T20:18:09.8206389-05:00" queuing="2015-02-02T20:18:09.9196446-05:00" start="2015-02-02T20:18:09.9266450-05:00" finish="2015-02-02T20:18:10.4466747-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="RemoveItemFromCartTest" storage="c:\users\heather\desktop\assignment1\task3\task3test\bin\debug\task3test.dll" id="b3272e7a-48ab-c3ec-a499-b35a1fdd919a">
+      <Execution id="1139a2fb-ea0c-4112-967d-ad3f3661310d" />
+      <TestMethod codeBase="C:/Users/Heather/Desktop/Assignment1/Task3/Task3Test/bin/Debug/Task3Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Task3Test.UnitTest1, Task3Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RemoveItemFromCartTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b3272e7a-48ab-c3ec-a499-b35a1fdd919a" executionId="1139a2fb-ea0c-4112-967d-ad3f3661310d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1139a2fb-ea0c-4112-967d-ad3f3661310d" testId="b3272e7a-48ab-c3ec-a499-b35a1fdd919a" testName="RemoveItemFromCartTest" computerName="TRANCE" duration="00:00:00.0952841" startTime="2015-02-02T20:18:09.9556466-05:00" endTime="2015-02-02T20:18:10.4106727-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1139a2fb-ea0c-4112-967d-ad3f3661310d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;2&gt;. </Message>
+          <StackTrace>   at Task3Test.UnitTest1.RemoveItemFromCartTest() in C:\Users\Heather\Desktop\Assignment1\Task3\Task3Test\UnitTest1.vb:line 31
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

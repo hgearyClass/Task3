@@ -1,0 +1,124 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Task3
+</name>
+</assembly>
+<members>
+<member name="F:Task3.Site.HeadContent">
+	<summary>
+HeadContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Task3.Site.MainContent">
+	<summary>
+MainContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="M:Task3.ShoppingCart.AddItemToCart(System.Int32,System.Int32,System.Double)">
+	<summary>
+ Add item to cart
+ </summary>
+	<param name="productId"></param>
+	<param name="qty"></param>
+	<param name="price"></param>
+	<remarks></remarks>
+</member><member name="M:Task3.ShoppingCart.EmptyCart">
+	<summary>
+ Remove all items from cart
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Task3.ShoppingCart.CalculateSubTotal">
+	<summary>
+ Calculate cart subtotal
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Task3.ShoppingCart.CalculateTax">
+	<summary>
+ Calculate cart tax - Placeholder
+ </summary>
+	<remarks>need to determine how to handle various rates</remarks>
+</member><member name="M:Task3.ShoppingCart.CalculateTotal">
+	<summary>
+ Calculate cart total
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Task3.ShoppingCart.UpdateItemInCart(System.Int32,System.Int32,System.Double)">
+	<summary>
+ Update specified item in cart
+ </summary>
+	<param name="productId"></param>
+	<param name="qty"></param>
+	<param name="price"></param>
+	<remarks></remarks>
+</member><member name="M:Task3.ShoppingCart.IsProductIdValid(System.String)">
+	<summary>
+ Determine if product id is valid
+ </summary>
+	<param name="productId"></param>
+	<returns>True if integer &gt; 0; otherwise False</returns>
+	<remarks>product id should come from database; this is just in case</remarks>
+</member><member name="M:Task3.ShoppingCart.IsPriceValid(System.String)">
+	<summary>
+ Determine if product price is valid
+ </summary>
+	<param name="price"></param>
+	<returns>True if double &gt;= 0; otherwise False</returns>
+	<remarks>price should come from the database; this is just in case</remarks>
+</member><member name="M:Task3.ShoppingCart.IsQuantityValid(System.String)">
+	<summary>
+ Determine if user entered quantity is valid
+ </summary>
+	<param name="qty"></param>
+	<returns>True if integer &gt;= 0; otherwise False</returns>
+	<remarks></remarks>
+</member><member name="M:Task3.Validation.IsIdValid(System.String)">
+	<summary>
+ Validate IDs
+ </summary>
+	<param name="idToValidate"></param>
+	<returns>True if integer &gt; 0; otherwise false</returns>
+	<remarks></remarks>
+</member><member name="P:Task3.My.MyWebExtension.Application">
+	<summary>
+ Returns information about the current application.
+ </summary>
+</member><member name="P:Task3.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:Task3.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:Task3.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:Task3.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:Task3.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="P:Task3.My.MyWebExtension.WebServices">
+	<summary>
+ Provides access to WebServices added to this project.
+ </summary>
+</member><member name="T:Task3.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>
